@@ -1,0 +1,25 @@
+
+state={
+	id=4
+	name="STATE_MEXICALI"
+
+	history={
+		owner = 
+		add_core_of = 
+		victory_points = {
+			4642 5 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+
+	}
+
+	provinces={
+		4641 4642 4821 5790 9176 
+	}
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=town
+}
