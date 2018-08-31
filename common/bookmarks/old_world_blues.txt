@@ -1,0 +1,47 @@
+bookmarks = {
+	bookmark = {
+		name = "OWB_NAME"
+		desc = "OWB_DESC"
+		date = 2275.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "NCR"
+		default = yes
+
+		NCR = {
+			history = "NCR_OWB_DESC"
+			ideology = people
+			ideas = {
+				ncrguns
+				
+			}
+			focuses = {
+				ncr_oldworldwall
+				ncr_baja
+				ncr_emergency
+			}
+
+		"VLT"={
+			minor = yes
+			history = "VLT_OWB_DESC"
+			ideology = intellectuals
+			ideas = {
+				courtyard
+				vaultmed
+				utopia
+			}
+			focuses = {
+				vault_brain_4b
+				vault_first_1
+				vault_festus_1
+			}
+		}
+		"---"={
+			history = "OTHER_OWB_DESC"
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
