@@ -1,0 +1,32 @@
+state = {
+	id = 245
+	name = "STATE_245"
+	manpower = 35000
+	state_category = large_city
+	
+	resources = {
+		water = 20
+		advanced_technology = 15
+		electronics = 25
+	}
+	
+	history = {
+		owner = NCR
+		add_core_of = NCR
+		victory_points = {
+			3424 20
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 2
+			anti_air_building = 1
+			air_base = 2
+		}
+	}
+	
+	provinces = {
+		3427 3428 3426 3425 3424
+	}
+}

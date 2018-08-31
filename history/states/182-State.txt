@@ -1,0 +1,26 @@
+state = {
+	id = 182
+	name = "STATE_182" # Northern Reaches
+	manpower = 11000
+	state_category = rural
+	
+	resources = {
+		water = 8
+	}
+	
+	history = {
+		owner = 
+		add_core_of =
+		add_core_of = BAR
+		victory_points = {
+			4910 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	
+	provinces = {
+		1625 2066 2174 1755 2173 2172 4905 4907 4906 4999 4997 5000 4811 4814 4813 4812 4928 4927 1757 4908 4909 4910 7053 7054 7061 7155 7156 7154 4998 6662
+	}
+}

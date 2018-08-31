@@ -1,0 +1,25 @@
+
+state={
+	id=603
+	name="STATE_603" # Copperopolis
+
+	history={
+		owner = 
+		add_core_of = 
+		add_core_of = BAR
+		victory_points = {
+			4740 5 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+
+	provinces={
+		1053 2300 4739 4740 4741 4742 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

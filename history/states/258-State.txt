@@ -1,0 +1,24 @@
+state = {
+	id = 258
+	name = "STATE_258" # Santa Barbara
+	manpower = 8000
+	state_category = large_town
+	
+	history = {
+		owner = NCR
+		add_core_of = NCR
+		victory_points = {
+			3429 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		
+		}
+	}
+	
+	provinces = {
+		918 2302 2305 2616 2617 3429 3430 4597 4631 4632 4633 4717
+	}
+}

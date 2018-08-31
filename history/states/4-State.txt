@@ -1,0 +1,21 @@
+state = {
+	id = 4
+	name = "STATE_SALTON_SEA" # Salton Sea
+	manpower = 11000
+	state_category = rural
+	
+	history = {
+		owner = 
+		add_core_of = 
+		victory_points = {
+			4642 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	
+	provinces = {
+		843 4638 4639 4640 4641 4642 4821 4822 9176
+	}
+}

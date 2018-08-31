@@ -1,0 +1,22 @@
+state = {
+	id = 558
+	name = "STATE_558" # Southern Lucia Range
+	manpower = 11000
+	state_category = rural
+	
+	history = {
+		owner = 
+		add_core_of = 
+		victory_points = {
+			4723 5
+		}
+		buildings = {
+			infrastructure = 2
+		
+		}
+	}
+	
+	provinces = {
+		957 2270 2614 2615 3297 4601 4602 4603 4604 4723 4724 4725 5045
+	}
+}

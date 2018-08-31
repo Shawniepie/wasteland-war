@@ -1,0 +1,26 @@
+
+state={
+	id=151
+	name="STATE_WOODLAKE"
+
+	history={
+		owner = 
+		add_core_of = 
+		add_core_of = BAR
+		victory_points = {
+			5066 5 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1777 2446 2447 4941 5066 8739 8745 8746 8747 8748 9632 9634 9635 9636 9637 9638 9639 
+	}
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
