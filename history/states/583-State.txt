@@ -1,22 +1,25 @@
-state = {
-	id = 583
-	name = "STATE_OCOTILLO" # Ocotillo
-	manpower = 11000
-	state_category = rural
-	
-	history = {
+
+state={
+	id=583
+	name="STATE_OCOTILLO"
+
+	history={
 		owner = 
 		add_core_of = 
 		victory_points = {
-			4971 5
+			4971 5 
 		}
 		buildings = {
 			infrastructure = 2
-		
+
 		}
+
 	}
-	
-	provinces = {
-		860 3302 4637 4970 4971 4972 4981 5780 5781 6659
+
+	provinces={
+		860 4638 4640 4822 5781 5794 
 	}
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }
