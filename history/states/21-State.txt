@@ -1,0 +1,38 @@
+
+state={
+	id=21
+	name="STATE_KOOVER"
+	resources={
+		water=9.000
+		electricity=3.000
+		metal=7.000
+	}
+
+	history={
+		owner = KOO
+		add_core_of = KOO
+		victory_points = {
+			3644 35
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 1
+			air_base = 1
+			3644 = {
+				naval_base = 8
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1526 1961 3644 3670 3674 3675 7208 9261 9263
+	}
+	manpower=23000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

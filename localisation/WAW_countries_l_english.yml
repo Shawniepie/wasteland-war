@@ -1,0 +1,18 @@
+﻿l_english:
+#EXAMPLES
+ #ARM_people:0 "Army of Mexico" #Used on Map
+ #ARM_people_DEF:0 "The New Mexican Army" #Used in Events
+ #ARM_people_ADJ:0 "Mexican Military" #Used in War Names
+
+ KOO_people:0 "Greater Koover"
+ KOO_people_DEF:0 "Greater Koover"
+ KOO_people_ADJ:0 "Greater Koover"
+ KOO_intellectuals:0 "Greater Koover"
+ KOO_intellectuals_DEF:0 "Greater Koover"
+ KOO_intellectuals_ADJ:0 "Greater Koover"
+ KOO_ruler:0 "Greater Koover"
+ KOO_ruler_DEF:0 "Greater Koover"
+ KOO_ruler_ADJ:0 "Greater Koover"
+ KOO_elites:0 "Greater Koover"
+ KOO_elites_DEF:0 "Greater Koover"
+ KOO_elites_ADJ:0 "Greater Koover"
