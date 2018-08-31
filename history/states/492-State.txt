@@ -1,0 +1,27 @@
+state = {
+	id = 492
+	name = "STATE_NORTH_KOOVER"
+	manpower = 6000
+	state_category = city
+	
+	history = {
+		owner = KOO
+		add_core_of = KOO
+		victory_points = {
+			7207 20
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 1
+			7206 = {
+				naval_base = 3
+			}
+		}
+	}
+	
+	provinces = {
+		7207 7206 3793 3774 3673 3795 3643 7209 3794 3672 3791 2095 7211 2096 3792
+	}
+}
