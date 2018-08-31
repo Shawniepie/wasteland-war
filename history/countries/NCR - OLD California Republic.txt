@@ -1,0 +1,142 @@
+﻿capital = 253
+oob = "NCR_2275"
+
+set_technology = {
+	grand_army = 1
+	standard_weaponry_tech = 1
+	blunt_weaponry = 1
+	basic_ballistic_weaponry = 1
+	support_weaponry = 1
+	anti_personnel_tech = 1
+	recon_tech = 1
+	bike_tech_1 = 1
+	tribal_civilization = 1
+	settled_civilization = 1
+	destroyer_tech = 1
+	cruiser_tech = 1
+	battleship_tech = 1
+	heavy_cruiser_tech = 1
+	truck_tech_1 = 1
+	anti_tank_tech = 1
+	special_forces = 1
+	naval_invasion_tech = 1
+}
+
+set_stability = 0.55
+set_war_support = 0.20
+set_research_slots = 4
+set_convoys = 450
+set_politics = {
+	parties = {
+		people = { popularity = 45 }
+		elites = { popularity = 0 }
+		intellectuals = { popularity = 0 }
+		ruler = { popularity = 0 }
+	}
+	ruling_party = people
+	elections_allowed = no
+}
+
+add_ideas = {
+	undisturbed_isolation
+	ncrguns
+}
+
+create_country_leader = {
+	name = "President Tandi"
+	desc = "Wendell_Peterson_DESC"
+	picture = "gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+	expire = "3000.1.1"
+	ideology = constitutional_republic
+
+	traits = {
+		dislikes_legion
+	}
+}
+
+create_country_leader = {
+	name = "Grant C. Hayes"
+	desc = "Hayes_DESC"
+	picture = "gfx/leaders/ENC/Portrait_Hayes.dds"
+	expire = "3000.1.1"
+	ideology = ideocracy
+
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Allgood Murphy"
+	desc = "Allgood_DESC"
+	picture = "Portrait_Allgood.dds"
+	expire = "3000.1.1"
+	ideology = benevolent_dictatorship
+
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Anton Flynn"
+	desc = "Anton_Flynn_DESC"
+	picture = "Portrait_Flynn.dds"
+	expire = "3000.1.1"
+	ideology = conspiratory_oligarchy
+
+	traits = {
+
+	}
+}
+
+create_corps_commander = {
+	name = "Chief Hanlon"
+	portrait_path = "gfx/leaders/NCR/Portrait_Hanlon.dds"
+	skill = 4
+	traits = {
+	}
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Lt. Gorobets"
+	portrait_path = "gfx/leaders/NCR/Portrait_Gorobets.dds"
+	skill = 2
+	traits = {
+	}
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Col. Cassandra Moore"
+	portrait_path = "gfx/leaders/NCR/Portrait_Moore.dds"
+	skill = 2
+	traits = {
+	}
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Col. James Hsu"
+	portrait_path = "gfx/leaders/NCR/Portrait_Hsu.dds"
+	skill = 3
+	traits = {
+	}
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_faction = NCR
+add_to_faction = NCR
