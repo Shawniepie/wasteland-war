@@ -32,3 +32,7 @@ CAR = {
 	color = rgb { 120 33 33 }
 	color_ui = rgb { 120 33 33 }
 }
+CNV = {
+	color = rgb { 196 0 0 }
+	color_ui = rgb { 196 0 0 }
+}
