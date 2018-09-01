@@ -1,0 +1,33 @@
+state = {
+	id = 548
+	name = "STATE_NAVARRO" # Navarro
+	manpower = 1500
+	state_category = city
+	resources = {
+		advanced_technology = 8
+		electronics = 8
+	}
+	history = {
+		owner = 
+		add_core_of = 
+		victory_points = {
+			3434 20
+		}
+		buildings = {
+			3438 = {
+				naval_base = 8
+			}
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 2
+			anti_air_building = 2
+			radar_station = 1
+			air_base = 4
+		}
+	}
+	
+	provinces = {
+		3435 3436 3434 3437 3438
+	}
+}
