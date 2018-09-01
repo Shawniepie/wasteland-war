@@ -2,6 +2,10 @@ NCR = {
 	color = rgb { 153 116 93 } #USED ON MAP
 	color_ui = rgb { 199 151 121 } #USED ON USER INTERFACE
 }
+VIC = {
+	color = rgb { 230 0 41 }
+	color_ui = rgb { 230 0 41 }
+}
 #VANILLA ABOVE
 #ADD NEW TAGS BELOW
 KOO = {
