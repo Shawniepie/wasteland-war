@@ -1,0 +1,28 @@
+state = {
+	id = 521
+	name = "STATE_MCGILL"
+	manpower = 3000
+	state_category = rural
+	
+	resources = {
+		metal = 10
+		electronics = 1
+	}
+	
+	history = {
+		owner = EVS
+		add_core_of = EVS
+		victory_points = {
+			3490 5
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		
+		}
+	}
+	
+	provinces = {
+		3327 3403 3489 3490 3402 3493 6318 6316 8909 8908 4424
+	}
+}
