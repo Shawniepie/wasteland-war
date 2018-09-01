@@ -1,0 +1,32 @@
+state = {
+	id = 14
+	name = "STATE_ARISTA_HARBOR"
+	manpower = 5500
+	state_category = large_town
+
+	resources = {
+		metal = 16
+		electronics = 8
+	}
+
+	history = {
+		owner = CNV
+		add_core_of = CNV
+		victory_points = {
+			7399 10
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+			industrial_complex = 1
+			air_base = 1
+			4 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		7400 7398 7399 7401 4 7397
+	}
+}
