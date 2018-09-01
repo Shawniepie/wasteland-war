@@ -6,6 +6,14 @@ VIC = {
 	color = rgb { 230 0 41 }
 	color_ui = rgb { 230 0 41 }
 }
+BEL = {
+	color = rgb { 110 151 213 }
+	color_ui = rgb { 110 151 213 }
+}
+SHI = {
+	color = rgb {192 38 0}
+	color_ui = rgb {192 38 0}
+}
 #VANILLA ABOVE
 #ADD NEW TAGS BELOW
 KOO = {

@@ -1,0 +1,30 @@
+state = {
+	id = 338
+	name = "STATE_AINSWORTHY"
+	manpower = 2500
+	state_category = rural
+	
+	resources = {
+		water = 6
+		electricity = 3
+		fuel = 2
+	}
+	
+	history = {
+		#owner = BEL
+		#add_core_of = BEL
+		victory_points = {
+			3931 5
+		}
+		buildings = {
+			infrastructure = 2
+			7384 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces = {
+		7492 3930 3929 2527 7384 7385 3931 3849 1968 2090 3787 3785 2484 3850 3782 3851 3848
+	}
+}

@@ -653,9 +653,9 @@
  STATE_HIXON: "Hixon"
  STATE_HIMATHKO_RANGE: "Himathko Range"
  STATE_SALTERY: "Saltery"
- STATE_TANTALUSS_PAIN: "Tantalus' Pain"
+ STATE_TANTALUSS_PAIN: "Powell River"
  STATE_EARLS_COVE: "Earl's Cove"
- STATE_SECHET: "Sechet"
+ STATE_SECHET: "Squamish"
  STATE_DAWSON_CREEK: "Dawnson Creek"
  STATE_TUMBLER_RIDGE: "Tumbler Ridge"
  STATE_VALEMOUNT_CACHE: "Valemount Cache"
@@ -684,9 +684,10 @@
  STATE_BELLINGHAM: "Bellingham"
  STATE_PRIESTFORD: "Priestford"
  STATE_SOLEIL_VALLEY: "Soleil Valley"
- STATE_REVELSTOKE: "Revelstoke" #Wrong
+ STATE_REVELSTOKE: "Stoke" #Wrong
  STATE_AINSWORTHY: "Ainsworthy" #Wrong
  STATE_MACBRIDE: "Macbride" #Wrong
+ STATE_TRAIL: "Trail"
 # Washington State
  STATE_BEDAL: "Bedal"
  STATE_WENACHEE: "Wenachee"
