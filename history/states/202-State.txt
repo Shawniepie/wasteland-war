@@ -1,0 +1,21 @@
+state = {
+	id = 202
+	name = "STATE_SILVERTHRONE"
+	manpower = 1000
+	state_category = rural
+
+	history = {
+		owner = CAR
+		add_core_of = CAR
+		victory_points = {
+			3760 5
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		3695 36 2121 3758 3759 2122 3757 3756 3755 2123 3760 3761 3762
+	}
+}

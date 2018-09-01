@@ -1,0 +1,21 @@
+state = {
+	id = 487
+	name = "STATE_MANSONS_LAND"
+	manpower = 2000
+	state_category = rural
+
+	history = {
+		owner = CAR
+		add_core_of = CAR
+		victory_points = {
+			2547 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		3947 3946 3948 2547 3986 3987 456 3949 3982 7304 7303 3802 3988 3821 7417
+	}
+}

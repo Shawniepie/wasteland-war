@@ -1,30 +1,28 @@
 
 state={
-	id=387
-	name="STATE_ALVIN_BLEAK"
+	id=34
+	name="STATE_HIMATHKO_RANGE"
+	resources={
+		water=4.000
+	}
 
 	history={
 		owner = CAR
 		add_core_of = CAR
 		victory_points = {
-			3969 5
+			3763 5
 		}
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			3810 = {
-				naval_base = 1
-
-			}
+			infrastructure = 1
 
 		}
 
 	}
 
 	provinces={
-		3796 3797 3798 3799 3810 3969 3989
+		2120 3763 3764 3765 3803 3804 3806 3808
 	}
-	manpower=2500
+	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
