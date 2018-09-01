@@ -1,14 +1,14 @@
 NCR = {
-	color = rgb { 153 116 93 }
-	color_ui = rgb { 199 151 121 }
+	color = rgb { 153 116 93 } #USED ON MAP
+	color_ui = rgb { 199 151 121 } #USED ON USER INTERFACE
 }
-BOS = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+VIC = {
+	color = rgb { 230 0 41 }
+	color_ui = rgb { 230 0 41 }
 }
 SHI = {
-	color = rgb {203 149 3}
-	color_ui = rgb {203 149 3}
+	color = rgb {192 38 0}
+	color_ui = rgb {192 38 0}
 }
 #VANILLA ABOVE
 #ADD NEW TAGS BELOW
@@ -16,8 +16,7 @@ KOO = {
 	color = rgb { 0 21 64 }
 	color_ui = rgb { 0 21 64 }
 }
-
-EVS = {
-	color = rgb { 0 179 47 }
-	color_ui = rgb { 0 179 47 }
+SEA = {
+	color = rgb { 137 160 44 }
+	color_ui = rgb { 137 160 44 }
 }
