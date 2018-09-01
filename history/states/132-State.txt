@@ -1,0 +1,31 @@
+
+state={
+	id=132
+	name="STATE_ANTIOCH"
+
+	history={
+		owner = 
+		add_core_of = 
+		victory_points = {
+			9216 20 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			4840 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1028 1042 2424 2610 3108 4613 4614 4735 4736 4837 4838 4840 4841 9215 9216 
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=city
+}
