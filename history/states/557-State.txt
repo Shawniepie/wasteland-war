@@ -1,0 +1,29 @@
+
+state={
+	id=557
+	name="STATE_WHISTLER"
+	resources={
+		metal=18.000
+		fuel=1.000
+	}
+
+	history={
+		owner = WHI
+		add_core_of = WHI
+		victory_points = {
+			2099 5
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		679 2097 2098 2099 2100 2101 2118 2128 3769 3770 3771 3979 7213 7214 7395
+	}
+	manpower=2500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

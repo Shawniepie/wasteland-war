@@ -24,3 +24,7 @@ SEA = {
 	color = rgb { 137 160 44 }
 	color_ui = rgb { 137 160 44 }
 }
+SSC = {
+	color = rgb { 247 216 7 }
+	color_ui = rgb { 247 216 7 }
+}
