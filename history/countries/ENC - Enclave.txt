@@ -1,0 +1,52 @@
+﻿capital = 548
+
+set_politics = {
+	parties = {
+		people = { popularity = 0 }
+		elites = { popularity = 30 }
+		intellectuals = { popularity = 70 }
+		ruler = { popularity = 0 }
+	}
+	ruling_party = intellectuals
+	elections_allowed = no
+}
+
+set_stability = 0.35
+set_war_support = 0.45
+set_research_slots = 6
+set_convoys = 150
+
+set_technology = {
+	standard_weaponry_tech = 1
+	blunt_weaponry = 1
+	tribal_civilization = 1
+	settled_civilization = 1
+	scientific_civilization = 1
+	destroyer_tech = 1
+	cruiser_tech = 1
+	battleship_tech = 1 
+	heavy_cruiser_tech = 1
+	basic_laser_weaponry = 1
+	improved_laser_weaponry  = 1
+	overcharged_ammunition = 1
+	power_armour = 1
+	power_armour_enclave1 = 1
+	tesla_weaponry = 1
+	vertiberd_gunship = 1 
+	vertiberd_transport1 = 1 
+	support_weaponry = 1
+	
+}
+# Enclave Intellectuals
+	# creating country leaders
+create_country_leader = {
+	name = "Grant C. Hayes"
+	desc = "Hayes_DESC"
+	picture = "Portrait_Hayes.dds"
+	expire = "3000.1.1"
+	ideology = ideocracy
+				
+	traits = {
+					
+	}
+}
