@@ -1,0 +1,34 @@
+
+state={
+	id=575
+	name="STATE_SEATTLE_OUTSKIRTS"
+	resources={
+		metal=18.000
+	}
+
+	history={
+		owner = SEA
+		add_core_of = SEA
+		victory_points = {
+			1928 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			dockyard = 2
+			9250 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1918 1928 2495 3663 3664 3665 3679 9250 
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

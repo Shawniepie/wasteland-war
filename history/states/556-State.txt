@@ -1,0 +1,32 @@
+state = {
+	id = 556
+	name = "STATE_KODIAK_BASE"
+	manpower = 4000
+	state_category = town
+	
+	resources = {
+		water = 12
+		fuel = 8
+		electronics = 8
+	}
+	
+	history = {
+		owner = SEA
+		add_core_of = SEA
+		victory_points = {
+			7116 15
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+			7111 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces = {
+		3860 3861 3859 1931 4025 2498 3863 3862 3864 2497 7108 7110 7109 7112 7111 7113 7114 7115 7116 7118 7117 4324 4323 7100
+	}
+}

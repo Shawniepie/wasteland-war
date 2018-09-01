@@ -1,0 +1,25 @@
+state = {
+	id = 561
+	name = "STATE_EARLS_COVE"
+	manpower = 2000
+	state_category = rural
+	
+	resources = {
+		metal = 6
+	}
+	
+	history = {
+		owner = KOO
+		add_core_of = KOO
+		victory_points = {
+			2114 5
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
+	provinces = {
+		2107 2114 2112 2106 2105 2115 3772 3626 3624 3625 2109 2113
+	}
+}

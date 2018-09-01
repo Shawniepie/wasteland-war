@@ -16,7 +16,7 @@
  KOO_elites:0 "Greater Koover"
  KOO_elites_DEF:0 "Greater Koover"
  KOO_elites_ADJ:0 "Greater Koover"
- 
+
  EVS_people:0 "Emerald Valley Republic"
  EVS_people_DEF:0 "Emerald Valley Republic"
  EVS_people_ADJ:0 "Emerald Valley Republic"
@@ -29,3 +29,16 @@
  EVS_elites:0 "Emerald Valley Raiders"
  EVS_elites_DEF:0 "Emerald Valley Raiders"
  EVS_elites_ADJ:0 "Emerald Valley Raiders"
+
+ SEA_people:0 "Sea-Tac Union"
+ SEA_people_DEF:0 "Sea-Tac Union"
+ SEA_people_ADJ:0 "Sea-Tac Union"
+ SEA_intellectuals:0 "Sea-Tac Union"
+ SEA_intellectuals_DEF:0 "Sea-Tac Union"
+ SEA_intellectuals_ADJ:0 "Sea-Tac Union"
+ SEA_ruler:0 "Sea-Tac Union"
+ SEA_ruler_DEF:0 "Sea-Tac Union"
+ SEA_ruler_ADJ:0 "Sea-Tac Union"
+ SEA_elites:0 "Sea-Tac Union"
+ SEA_elites_DEF:0 "Sea-Tac Union"
+ SEA_elites_ADJ:0 "Sea-Tac Union"
