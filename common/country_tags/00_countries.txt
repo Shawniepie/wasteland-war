@@ -1,4 +1,5 @@
 ###############
 NCR = "countries/NCR - OLD California Republic.txt"
 KOO = "countries/KOO - Koover.txt"
-EVS = "countries/EVS - Emerald Valley Survivalists"
+EVS = "countries/EVS - Emerald Valley Survivalists.txt"
+BOS = "countries/BOS - Brotherhood of Steel.txt"
