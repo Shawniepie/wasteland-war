@@ -94,4 +94,16 @@
  CAR_elites:0 "Cariboo Concord"
  CAR_elites_DEF:0 "the Cariboo Concord"
  CAR_elites_ADJ:0 "Cariboo Concord"
- 
+
+ CNV_people:0 "New Canadian Admiralty"
+ CNV_people_DEF:0 "the New Canadian Admiralty"
+ CNV_people_ADJ:0 "New Canadian Admiralty"
+ CNV_intellectuals:0 "New Canadian Admiralty"
+ CNV_intellectuals_DEF:0 "the New Canadian Admiralty"
+ CNV_intellectuals_ADJ:0 "New Canadian Admiralty"
+ CNV_ruler:0 "New Canadian Admiralty"
+ CNV_ruler_DEF:0 "the New Canadian Admiralty"
+ CNV_ruler_ADJ:0 "New Canadian Admiralty"
+ CNV_elites:0 "New Canadian Admiralty"
+ CNV_elites_DEF:0 "the New Canadian Admiralty"
+ CNV_elites_ADJ:0 "New Canadian Admiralty"

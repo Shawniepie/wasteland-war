@@ -1,11 +1,11 @@
 state = {
 	id = 356
 	name = "STATE_SKAGWAY"
-	manpower = 1000
-	state_category = rural
-	
+	manpower = 7000
+	state_category = town
 
-	
+
+
 	history = {
 		owner = BRK
 		add_core_of = BRK
@@ -13,10 +13,13 @@ state = {
 			6322 5
 		}
 		buildings = {
-			dockyard = 1
+			dockyard = 4
+		}
+		6322 = {
+			naval_base = 3
 		}
 	}
-	
+
 	provinces = {
 		4422 4415 4416 4412 4410 4409 4408 4407 4419 4417 4413 4414 4418 4420 4421 4411 6322 6323
 	}
