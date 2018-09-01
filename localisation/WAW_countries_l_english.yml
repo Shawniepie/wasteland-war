@@ -81,3 +81,17 @@
  SSC_elites:0 "Shine Coast"
  SSC_elites_DEF:0 "the Shine Coast"
  SSC_elites_ADJ:0 "Shine Coast"
+
+ CAR_people:0 "Cariboo Concord"
+ CAR_people_DEF:0 "the Cariboo Concord"
+ CAR_people_ADJ:0 "Cariboo Concord"
+ CAR_intellectuals:0 "Cariboo Concord"
+ CAR_intellectuals_DEF:0 "the Cariboo Concord"
+ CAR_intellectuals_ADJ:0 "Cariboo Concord"
+ CAR_ruler:0 "Cariboo Concord"
+ CAR_ruler_DEF:0 "the Cariboo Concord"
+ CAR_ruler_ADJ:0 "Cariboo Concord"
+ CAR_elites:0 "Cariboo Concord"
+ CAR_elites_DEF:0 "the Cariboo Concord"
+ CAR_elites_ADJ:0 "Cariboo Concord"
+ 

@@ -28,3 +28,7 @@ SSC = {
 	color = rgb { 247 216 7 }
 	color_ui = rgb { 247 216 7 }
 }
+CAR = {
+	color = rgb { 120 33 33 }
+	color_ui = rgb { 120 33 33 }
+}
