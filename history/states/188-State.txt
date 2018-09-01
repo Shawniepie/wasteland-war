@@ -1,0 +1,33 @@
+state = {
+	id = 188
+	name = "STATE_FROZEN_ISLES"
+	manpower = 1000
+	state_category = town
+
+	resources = {
+		electricity = 48
+		fuel = 48
+	}
+
+	history = {
+		owner = CNV
+		add_core_of = CNV
+		victory_points = {
+			7404 10
+		}
+		buildings = {
+			dockyard = 3
+			infrastructure = 1
+			4405 = {
+				naval_base = 2
+			}
+			4402 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces = {
+		4404 4406 4401 4403 4405 229 4402 7404 7403 7402
+	}
+}
