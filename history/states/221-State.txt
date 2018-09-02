@@ -1,0 +1,29 @@
+state = {
+	id = 221
+	name = "STATE_ILLWICAN_STRETCH"
+	manpower = 3000
+	state_category = town
+
+	resources = {
+	}
+
+	history = {
+		owner = POR
+		add_core_of = POR
+		victory_points = {
+			7075 5
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			dockyard = 2
+			7075 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		7075 7093 7076 7077 7081 7096 7078
+	}
+}

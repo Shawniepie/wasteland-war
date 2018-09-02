@@ -36,3 +36,7 @@ CNV = {
 	color = rgb { 196 0 0 }
 	color_ui = rgb { 196 0 0 }
 }
+POR = {
+	color = rgb { 4 106 56 }
+	color_ui = rgb { 4 106 56 }
+}

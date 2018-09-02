@@ -1,0 +1,35 @@
+state = {
+	id = 23
+	name = "STATE_THE_MAW"
+	manpower = 12000
+	state_category = large_city
+
+	resources = {
+		water = 8
+		metal = 30
+		electricity = 8
+		fuel = 8
+		advanced_technology = 8
+		electronics = 16
+	}
+
+	history = {
+		owner = POR
+		add_core_of = POR
+		victory_points = {
+			7083 28
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			dockyard = 3
+			7083 = {
+				naval_base = 5
+			}
+		}
+	}
+
+	provinces = {
+		7083 7087 7074 3869 7088 2524 7089 7073 7090 7071 3868
+	}
+}

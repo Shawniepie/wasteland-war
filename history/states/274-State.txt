@@ -1,0 +1,22 @@
+state = {
+	id = 274
+	name = "STATE_FORT_STEVENS"
+	manpower = 3000
+	state_category = town
+
+	history = {
+		owner = POR
+		add_core_of = POR
+		victory_points = {
+			7097 5
+		}
+		buildings = {
+			dockyard = 2
+			infrastructure = 4
+		}
+	}
+
+	provinces = {
+		7097 7098 7072 3867 3866 7099
+	}
+}

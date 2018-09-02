@@ -1,0 +1,26 @@
+state = {
+	id = 7
+	name = "STATE_NORTH_MAW"
+	manpower = 9000
+	state_category = city
+
+	history = {
+		owner = POR
+		add_core_of = POR
+		victory_points = {
+			7082 10
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			dockyard = 1
+			7082 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces = {
+		7080 4024 3865 7092 7079 7094 7095 7084 7082 7091 1940
+	}
+}
