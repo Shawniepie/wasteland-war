@@ -1,4 +1,4 @@
-﻿capital = 548
+capital = 548
 
 set_politics = {
 	parties = {
@@ -13,7 +13,7 @@ set_politics = {
 
 set_stability = 0.35
 set_war_support = 0.45
-set_research_slots = 6
+set_research_slots = 5
 set_convoys = 150
 
 set_technology = {
@@ -40,7 +40,7 @@ set_technology = {
 # Enclave Intellectuals
 	# creating country leaders
 create_country_leader = {
-	name = "Grant C. Hayes"
+	name = "Dick Richardson"
 	desc = "Hayes_DESC"
 	picture = "Portrait_Hayes.dds"
 	expire = "3000.1.1"
