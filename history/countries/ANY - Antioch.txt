@@ -1,5 +1,5 @@
-﻿capital = 132
-oob = "HUB_2241"
+capital = 132
+oob = "ANY_2241"
 
 set_technology = {
 	standard_weaponry_tech = 1
@@ -23,11 +23,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "AHS-9"
+	name = "Boss Rocha"
 	desc = "null"
 	picture = "gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
 	expire = "3000.1.1"
-	ideology = indifferent_despotism
+	ideology = gang
 
 	traits = {
 		smooth_talking_charmer
