@@ -7,7 +7,7 @@ bookmarks = {
 		default_country = "NCR"
 		default = yes
 
-		"NCR" = {
+		NCR = {
 			history = "NCR_OWB_DESC"
 			ideology = people
 			ideas = {
@@ -20,7 +20,7 @@ bookmarks = {
 				ncr_emergency
 			}
 
-		"VLT"={
+		VLT = {
 			minor = yes
 			history = "VLT_OWB_DESC"
 			ideology = intellectuals
@@ -35,7 +35,7 @@ bookmarks = {
 				vault_festus_1
 			}
 		}
-		"---"={
+		--- = {
 			history = "OTHER_OWB_DESC"
 		}
 
