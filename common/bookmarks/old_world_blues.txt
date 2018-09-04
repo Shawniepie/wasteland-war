@@ -7,7 +7,7 @@ bookmarks = {
 		default_country = "NCR"
 		default = yes
 
-		NCR = {
+		"NCR" = {
 			history = "NCR_OWB_DESC"
 			ideology = people
 			ideas = {
