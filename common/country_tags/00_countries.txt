@@ -12,5 +12,5 @@ CAR = "countries/CAR - Cariboo.txt"
 ENC = "countries/ENC - Enclave.txt"
 CNV = "countries/CNV - Canadian Admiralty.txt"
 POR = "countries/POR - Port Authority.txt"
-HUB = "countries/HUB - Hubologists.txt
+HUB = "countries/HUB - Hubologists.txt"
 ANY = "countries/ANY - Antioch.txt"
