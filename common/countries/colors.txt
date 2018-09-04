@@ -44,3 +44,7 @@ HUB = {
 	color = rgb { 245 245 220 }
 	color_ui = rgb { 245 245 220 }
 }
+ANT = {
+	color = rgb { 72 102 182 }
+	color_ui = rgb { 66 96 178 }
+}
