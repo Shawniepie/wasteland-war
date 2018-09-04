@@ -1,4 +1,4 @@
-capital = 97
+capital = 132
 oob = "ANT_2241"
 set_technology = {
 	standard_weaponry_tech = 1
