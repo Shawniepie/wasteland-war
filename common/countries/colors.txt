@@ -40,3 +40,7 @@ POR = {
 	color = rgb { 4 106 56 }
 	color_ui = rgb { 4 106 56 }
 }
+HUB = {
+	color = rgb { 245 245 220 }
+	color_ui = rgb { 245 245 220 }
+}
