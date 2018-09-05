@@ -48,3 +48,7 @@ ANY = {
 	color = rgb { 72 102 182 }
 	color_ui = rgb { 72 102 182 }
 }
+ENC = {
+	color = rgb { 17 30 108 }
+	color_ui = rgb { 17 30 108 }
+}
