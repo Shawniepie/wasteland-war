@@ -19,23 +19,21 @@ bookmarks = {
 				ncr_baja
 				ncr_emergency
 			}
-
-		VLT = {
-			minor = yes
-			history = "VLT_OWB_DESC"
-			ideology = intellectuals
+		}
+		HUB = {
+			history = "HUB_OWB_DESC"
+			ideology = people
 			ideas = {
-				courtyard
-				vaultmed
-				utopia
+			
+				
 			}
 			focuses = {
-				vault_brain_4b
-				vault_first_1
-				vault_festus_1
+			
+			
+			
 			}
 		}
-		--- = {
+		"---" = {
 			history = "OTHER_OWB_DESC"
 		}
 
