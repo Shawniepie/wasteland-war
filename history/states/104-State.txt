@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = 
-		add_core_of = 
+		owner = SAN
+		add_core_of = SAN
 		victory_points = {
 			9212 30 
 		}
