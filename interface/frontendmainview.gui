@@ -84,7 +84,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "mainmenu_single_player"
 		position = { x=0 y =0}
-		size = { width = 320 height = 395}
+		size = { width = 900 height = 761}
 		Orientation = CENTER
 		Origo = center	
 				
@@ -98,7 +98,7 @@ guiTypes = {
 			position = { x = 16 y = 18 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_CONTINUE"
-			buttonFont = "hoi_24header"
+			buttonFont = "fallout_greentypewriter22"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -140,7 +140,7 @@ guiTypes = {
 			position = { x = 16 y = 58 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_NEW"
-			buttonFont = "hoi_24header"
+			buttonFont = "fallout_greentypewriter22"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -150,7 +150,7 @@ guiTypes = {
 			position = {  x = 16 y = 98 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "MENU_BAR_LOAD"
-			buttonFont = "hoi_24header"
+			buttonFont = "fallout_greentypewriter22"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -160,7 +160,7 @@ guiTypes = {
 			position = { x = 16 y = 138}
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_TUTORIAL"
-			buttonFont = "hoi_24header"
+			buttonFont = "fallout_greentypewriter22"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -170,7 +170,7 @@ guiTypes = {
 			position = { x = 16 y = 218 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "BACK"
-			buttonFont = "hoi_24header"
+			buttonFont = "fallout_greentypewriter22"
 			clicksound = click_close
 			oversound = ui_menu_over
 			shortcut = "ESCAPE"
@@ -194,18 +194,18 @@ guiTypes = {
 			name = "single_player_button"
 			position = { x = 70 y = 200 }
 			quadTextureSprite ="GFX_main_lobby_button"
-			font = "fallout_greentypewriter16"			
-			text = "> Single Player"				
+			font = "fallout_greentypewriter22"			
+			text = "LOAD SINGLEPLAYER.EXE"				
 			clicksound = click_default			
 			oversound = ui_menu_over
 		}
 		
 		ButtonType = {
 			name = "multi_player_button"
-			position = { x = 70 y = 240}
+			position = { x = 70 y = 270}
 			quadTextureSprite ="GFX_main_lobby_button"
-			font = "hoi_24header"			
-			text = "FE_MULTI_PLAYER"			
+			font = "fallout_greentypewriter22"			
+			text = "LOAD MULTIPLAYER.EXE"			
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -213,7 +213,7 @@ guiTypes = {
 		instantTextBoxType = {
 
 			name ="version_label"
-			position = { x = 35 y = 356 }
+			position = { x = 325 y = 570 }
 			textureFile = ""
 			font = "hoi_18b"
 			borderSize = {x = 0 y = 0}
@@ -226,10 +226,10 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "settings_button"
-			position = { x = 300 y = 98 }
+			position = { x = 70 y = 340 }
 			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "OPTIONS"
-			buttonFont = "hoi_24header"
+			buttonText = "SETTINGS.EXE"
+			buttonFont = "fallout_greentypewriter22"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -237,75 +237,33 @@ guiTypes = {
 
 		ButtonType = {
 			name = "credits_button"
-			position = {  x = 300 y = 138 }
+			position = {  x = 70 y = 410 }
 			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "FE_CREDITS"
-			buttonFont = "hoi_24header"
+			buttonText = "ERROR.EXE"
+			buttonFont = "fallout_greentypewriter22"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
 		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 300 y = 178 }
+			position = { x = 70 y = 480 }
 			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "Nudge!"
-			buttonFont = "hoi_24header"
+			buttonText = "NUDGE.EXE"
+			buttonFont = "fallout_greentypewriter22"
 		}
 		
 
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 300 y = 260 }
+			position = { x = 400 y = 650 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			font = "hoi_24header"			
-			text = "FE_EXIT"			
+			text = "cent"			
 			clicksound = click_default
 			oversound = ui_menu_over
 			
 		}
-		
-		## facebook etc.
-		ButtonType = {
-			name = "homepage_button"
-			position = { x = 59 y = 309 }
-			quadTextureSprite ="homepage"
-			clicksound = click_default
-			pdx_tooltip = "MENU_HOMEPAGE"
-			web_link = "http://www.heartsofiron4.com"
-		}
-		ButtonType = {
-			name = "forum_button"
-			position = { x = 99 y = 309 }
-			quadTextureSprite ="forum"
-			clicksound = click_default
-			pdx_tooltip = "MENU_FORUM"
-			web_link = "http://forum.paradoxplaza.com/forum/forumdisplay.php?844-Hearts-of-Iron-IV"
-		}
-		ButtonType = {
-			name = "facebook_button"
-			position = { x = 139 y = 309 }
-			quadTextureSprite ="facebook"
-			clicksound = click_default
-			pdx_tooltip = "MENU_FACEBOOK"
-			web_link = "https://www.facebook.com/Heartsofiron"
-		}			
-		
-		ButtonType = {
-			name = "twitter_button"
-			position = { x = 179 y = 309 }
-			quadTextureSprite ="twitter"
-			#clicksound = click_default
-			pdx_tooltip = "MENU_TWITTER"
-			web_link = "https://twitter.com/hoi_game"
-		}
-		
-		ButtonType = {
-			name = "privacy_policy_button"
-			position = { x = 219 y = 309 }
-			quadTextureSprite ="privacy"
-			#clicksound = click_default
-			pdx_tooltip = "MENU_PRIVACY_POLICY"
-		}
+
 	}
 }
