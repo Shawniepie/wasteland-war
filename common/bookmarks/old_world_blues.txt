@@ -33,6 +33,17 @@ bookmarks = {
 			
 			}
 		}
+		NEW = {
+			history = "NEW_OWB_DESC"
+			ideology = people
+			ideas = {
+			}
+			focuses = {
+				new_topdog
+				new_klamathdeal
+				new_mercmilitary
+			}
+		}
 		"---" = {
 			history = "OTHER_OWB_DESC"
 		}

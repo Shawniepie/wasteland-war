@@ -1,0 +1,39 @@
+﻿l_english:
+
+ ruler:0 "Ruler"
+ ruler_noun:0 "Autocracy"
+ ruler_desc:0 "Rule of One"
+
+ people:0 "People"
+ people_noun:0 "Democracy"
+ people_desc:0 "Rule of Many"
+
+ intellectuals:0 "Intellectuals"
+ intellectuals_noun:0 "Technocracy"
+ intellectuals_desc:0 "Rule of Progress"
+
+ elites:0 "Elites"
+ elites_noun:0 "Oligarchy"
+ elites_desc:0 "Rule of Few"
+ 
+ underworld:0 "Criminal Underworld"
+ underworld_noun:0 "Kleptocracy"
+ underworld_desc:0 "Rule of Corruption"
+
+ 
+ BRK_ruler_party:0 "Graven's Rule"
+ BRK_elites_party:0 "Ragnar's Power"
+ BRK_intellectuals_party:0 "Free Thinkers"
+ BRK_people_party:0 "Soft Hearts"
+
+ NCR_ruler_party:0 "Boneyard Separatists"
+ NCR_elites_party:0 "The Barons"
+ NCR_intellectuals_party:0 "The Old World Party"
+ NCR_people_party:0 "NCR Congress"
+ NEW_ruler_party:0 "The Mordinos"
+ NEW_elites_party:0 "The Salvatores"
+ NEW_intellectuals_party:0 "The Wrights"
+ NEW_people_party:0 "The Bishops"
+ NEW_enclave_party_long:0 "The Enclave"
+ NEW_enclave_party:0 "The Enclave"
+ NEW_underworld_party:0 "Criminal Underworld"

@@ -1,0 +1,710 @@
+﻿add_namespace = nf_reno
+
+country_event = {
+	id = nf_reno.1
+	title = nf_reno.1.t
+	desc = nf_reno.1.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_reno.1.a
+
+		add_manpower = 1000
+
+		285 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+
+	option = {
+		name = nf_reno.1.b
+
+		add_ideas = casinofunding
+
+		285 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	option = {
+		name = nf_reno.1.c
+
+		add_ideas = militaryoutposts
+
+		285 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = nf_reno.2 #Pick a faction
+	title = nf_reno.2.t
+	desc = nf_reno.2.d
+
+	is_triggered_only = yes
+
+	#option = {
+	#	name = nf_reno.2.a
+	#	ai_chance = {
+	#		factor = 10
+	#	}
+	#	country_event = { id = factionevent.1 }
+	#}
+
+	option = {
+		name = nf_reno.2.b
+	}
+
+	option = {
+		name = nf_reno.2.c
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				has_opinion = {
+					target = NCR
+					value > 50
+				}
+				factor = 100
+			}
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 100
+			}
+		}
+
+		NCR = {
+			add_to_faction = NEW
+			add_ai_strategy = {
+				type = alliance
+				id = "NEW"
+				value = 200
+			}
+		}
+		NEW = {
+			add_ai_strategy = {
+				type = alliance
+				id = "NCR"
+				value = 200
+			}
+		}
+	}
+}
+
+country_event = {
+	id = nf_reno.3 #Enclave bitches
+	title = nf_reno.3.t
+	desc = nf_reno.3.d
+	picture = GFX_event_ENC_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_reno.3.a
+
+		set_cosmetic_tag = ENC
+		create_country_leader = {
+			name = "Governor Arch Dornan"
+			id = 791
+			desc = "Dornan_DESC"
+			picture = "gfx/leaders/NEW/Portrait_New_Reno_Arch_Dornan.dds"
+			expire = "3000.1.1"
+			ideology = militarist_technocracy
+
+			traits = {
+
+			}
+		}
+		set_politics = {
+			parties = {
+				people = { popularity = 0 }
+				elites = { popularity = 100 }
+				intellectuals = { popularity = 0 }
+				ruler = { popularity = 0 }
+			}
+			ruling_party = elites
+			elections_allowed = no
+		}
+		set_party_name = { ideology = elites long_name = NEW_enclave_party_long name = NEW_enclave_party }
+
+		create_faction = "Nevada Enclave"
+
+		hidden_effect = {
+			set_technology = {
+				power_armour_enclave1 = 1
+				tesla_weaponry = 1
+				settled_civilization = 1
+				scientific_civilization = 1
+			}
+			load_oob = renoenclave
+		}
+	}
+
+}
+
+
+country_event = {
+	id = nf_reno.4 #Mutant Takeover
+	title = nf_reno.4.t
+	desc = nf_reno.4.d
+	immediate = {
+		BOS = {
+			add_opinion_modifier = { target = NEW modifier = boshatesmutants }
+		}
+		MOJ = {
+			add_opinion_modifier = { target = NEW modifier = boshatesmutants }
+		}
+		WBH = {
+			add_opinion_modifier = { target = NEW modifier = boshatesmutants }
+		}
+	}
+	is_triggered_only = yes
+
+	option = {
+		name = nf_reno.4.a
+
+		NEW = {
+			create_country_leader = {
+				name = "Thradd the Immortal"
+				desc = "Thradd_DESC"
+				picture = "Portrait_Thradd.dds"
+				expire = "3000.1.1"
+				ideology = warlordship
+				id = 792
+
+				traits = {
+
+				}
+			}
+
+			set_party_name = {
+				ideology = ruler
+				long_name = "Warlord Thradd"
+				name = "Warlord Thradd"
+			}
+
+			set_cosmetic_tag = THR
+
+			create_faction = "Master's New Army"
+
+			set_politics = {
+				parties = {
+					people = { popularity = 0 }
+					elites = { popularity = 0 }
+					intellectuals = { popularity = 0 }
+					ruler = { popularity = 100 }
+				}
+				ruling_party = ruler
+				elections_allowed = no
+			}
+			hidden_effect = {
+				set_technology = {
+					super_mutant_civilization = 1
+					mutant_access = 1
+					super_mutant_behemoth = 1
+					super_mutant_melee_weapons = 1
+				}
+				NEW = { remove_opinion_modifier = { target = WHI modifier = supermutants } }
+				TRL = { remove_opinion_modifier = { target = BRK modifier = non_supermutants } }
+			}
+		}
+	}
+}
+country_event = {
+	id = nf_reno.5
+	title = nf_reno.5.t
+	desc = nf_reno.5.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_reno.5.a
+
+		add_equipment_to_stockpile = { type = motorized_equipment amount = 300 producer = NEW }
+
+		add_ideas = chopshop
+
+		285 = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	option = {
+		name = nf_reno.5.b
+
+		add_war_support = 0.05
+
+		285 = {
+			add_extra_state_shared_building_slots = 5
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+			}
+		}
+	}
+
+	option = {
+		name = nf_reno.5.c
+
+		add_equipment_to_stockpile = { type = ballistic_equipment_2 amount = 300 producer = NEW }
+
+		285 = {
+			add_extra_state_shared_building_slots = 5
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = nf_reno.6
+	title = nf_reno.6.t
+	desc = nf_reno.6.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_reno.6.a
+
+		add_ideas = deal1
+	}
+
+	option = {
+		name = nf_reno.6.b
+
+		add_ideas = deal2
+	}
+
+	option = {
+		name = nf_reno.6.c
+
+		add_ideas = deal3
+	}
+
+
+}
+
+country_event = {
+	id = nf_reno.7
+	title = nf_reno.7.t
+	desc = nf_reno.7.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_reno.7.a
+		ai_chance = {
+			factor = 2
+			modifier = {
+				NCR = {
+					is_ai = no
+				}
+				factor = 10
+			}
+		}
+
+
+		set_politics = {
+			ruling_party = elites
+			elections_allowed = no
+		}
+	}
+
+	option = {
+		name = nf_reno.7.b
+
+		ai_chance = {
+			factor = 2
+			modifier = {
+				OR = {
+					VLT = {
+						is_ai = no
+					}
+					TRL = {
+						is_ai = no
+					}
+				}
+				factor = 10
+			}
+		}
+
+		set_politics = {
+			ruling_party = intellectuals
+			elections_allowed = no
+		}
+	}
+
+	option = {
+		name = nf_reno.7.c
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 100
+			}
+		}
+
+	}
+
+	option = {
+		name = nf_reno.7.e
+
+		ai_chance = {
+			factor = 1
+		}
+
+		set_politics = {
+			ruling_party = ruler
+			elections_allowed = no
+		}
+	}
+
+
+}
+
+country_event = {
+	id = nf_reno.8
+	title = nf_reno.8.t
+	desc = nf_reno.8.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_reno.8.a
+		NEW = {
+			puppet = KLA
+		}
+		57 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+			}
+		}
+	}
+
+	option = {
+		name = nf_reno.8.b
+
+	}
+}
+country_event = {
+	id = nf_reno.9 #Troll Warren receives an invitation to join Master's Army#
+	title = nf_reno.9.t
+	desc = nf_reno.9.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+
+	option = {
+
+		name = nf_reno.9.a
+
+		NEW = {
+		country_event = nf_reno.10
+		}
+	}
+
+	option = {
+
+		name = nf_reno.9.b
+
+		NEW = {
+		country_event = nf_reno.11
+		}
+	}
+}
+country_event = {
+	id = nf_reno.10 #Troll Warren accepts our invitation#
+	title = nf_reno.10.t
+	desc = nf_reno.10.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+	option = {
+
+		name = nf_reno.10.a
+
+		add_to_faction = TRL
+		add_ai_strategy = {
+			type = alliance
+			id = "TRL"
+			value = 200
+		}
+		TRL = {
+			add_ai_strategy = {
+				type = alliance
+				id = "NEW"
+				value = 200
+			}
+		}
+	}
+}
+country_event = {
+	id = nf_reno.11 #Troll Warren rejects our invitation(we are very angry now)#
+	title = nf_reno.11.t
+	desc = nf_reno.11.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+
+	option = {
+
+		name = nf_reno.11.a
+		NEW = {
+			create_wargoal = {
+				type = annex_everything
+				target = TRL
+			}
+		}
+	}
+}
+country_event = {
+	id = nf_reno.12 #Vault City receives an invitation to join Master's Army#
+	title = nf_reno.12.t
+	desc = nf_reno.12.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+
+	option = {
+
+		name = nf_reno.12.a
+
+		NEW = {
+		country_event = nf_reno.13
+		}
+	}
+
+	option = {
+
+		name = nf_reno.12.b
+
+		NEW = {
+		country_event = nf_reno.14
+		}
+	}
+}
+country_event = {
+	id = nf_reno.13 #Vault City accepts our invitation#
+	title = nf_reno.13.t
+	desc = nf_reno.13.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+	option = {
+
+		name = nf_reno.13.a
+
+		add_to_faction = VLT
+		add_ai_strategy = {
+			type = alliance
+			id = "VLT"
+			value = 200
+		}
+		VLT = {
+			add_ai_strategy = {
+				type = alliance
+				id = "NEW"
+				value = 200
+			}
+		}
+	}
+}
+
+country_event = { #Vault City declines our invitation#
+	id = nf_reno.14
+	title = nf_reno.14.t
+	desc = nf_reno.14.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+
+	option = {
+
+		name = nf_reno.14.a
+		NEW = {
+			create_wargoal = {
+				type = annex_everything
+				target = VLT
+			}
+		}
+	}
+}
+
+country_event = {
+	id = nf_reno.15 #Cult of Unity#
+	title = nf_reno.15.t
+	desc = nf_reno.15.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+
+	option = {
+
+		name = nf_reno.15.a
+
+		NEW = {
+			add_war_support = 0.10
+		}
+	}
+
+	option = {
+
+		name = nf_reno.15.b
+
+		NEW = {
+		load_oob = thraddunity
+		}
+		NEW = {
+			add_ideas = cultmutants
+		}
+	}
+}
+
+country_event = {
+	id = nf_reno.16 #Mission to Vault City, Enclave#
+	title = nf_reno.16.t
+	desc = nf_reno.16.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+
+	option = { #Say Yes#
+
+		name = nf_reno.16.a
+
+		NEW = {
+		country_event = nf_reno.17
+		}
+
+	}
+
+	option = { #Say No#
+
+		name = nf_reno.16.b
+
+		NEW = {
+		country_event = nf_reno.18
+		}
+
+	}
+}
+
+country_event = {
+	id = nf_reno.17 #Vault City Accepts Our Offer#
+	title = nf_reno.17.t
+	desc = nf_reno.17.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+	option = {
+
+		name = nf_reno.17.a
+
+		add_to_faction = VLT
+
+		add_ai_strategy = {
+			type = alliance
+			id = "VLT"
+			value = 200
+		}
+		VLT = {
+			add_ai_strategy = {
+				type = alliance
+				id = "NEW"
+				value = 200
+			}
+		}
+
+		reverse_add_opinion_modifier = {
+			target = VLT
+			modifier = intellectualallies
+		}
+	}
+}
+
+country_event = {
+	id = nf_reno.18 #Vault City Rejects Our Offer#
+	title = nf_reno.18.t
+	desc = nf_reno.18.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+	option = {
+
+		name = nf_reno.18.a
+
+		NEW = {
+			create_wargoal = {
+				type = annex_everything
+				target = VLT
+			}
+		}
+	}
+}
+
+country_event = {
+	id = nf_reno.19 #Vault City Rejects Our Offer#
+	title = nf_reno.19.t
+	desc = nf_reno.19.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+	option = {
+
+		name = nf_reno.19.a
+
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "General Drummund"
+			desc = "Drummund_DESC"
+			picture = "Portrait_Drummund.dds"
+			expire = "3000.1.1"
+			ideology = peoples_militia
+
+			traits = {
+
+			}
+		}
+	}
+}

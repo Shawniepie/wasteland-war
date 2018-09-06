@@ -1,0 +1,247 @@
+ideologies = {
+	
+	people = {
+	
+		types = {
+			
+			
+			unlimited_democracy= {
+			}
+			tribal_council = {
+			}
+			constitutional_republic = {
+			}
+			constitutional_monarchy = {
+			}
+			commune = {
+			}
+			town_hall_democracy = {
+			}
+			peoples_militia = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_PEOPLE_1"
+			"FACTION_NAME_PEOPLE_2"
+			"FACTION_NAME_PEOPLE_3"
+			"FACTION_NAME_PEOPLE_4"
+			"FACTION_NAME_PEOPLE_5"
+			"FACTION_NAME_PEOPLE_6"
+		}
+		
+		color = { 35 32 102 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+		}
+		
+		war_impact_on_world_tension = 0.1
+		faction_impact_on_world_tension = -0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 0.00
+			join_faction_tension = 0.6
+			lend_lease_tension = 0.3
+			send_volunteers_tension = 0.3
+			guarantee_tension = 0.4
+			#take_states_cost_factor = 0.25
+			#annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_democratic = yes # uses the people AI behaviour
+		can_be_boosted = no
+	}
+
+	intellectuals = {
+		
+		types = {
+		
+			ideocracy = {
+			}
+			technocracy = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_INTELLECTUALS_1"
+			"FACTION_NAME_INTELLECTUALS_2"
+			"FACTION_NAME_INTELLECTUALS_3"
+			"FACTION_NAME_INTELLECTUALS_4"
+			"FACTION_NAME_INTELLECTUALS_5"
+		}
+		
+		color = { 113 0 0 }
+		
+		war_impact_on_world_tension = 0.15		#Commie less threatening
+		faction_impact_on_world_tension = 0.1
+		
+		ai_communist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			join_faction_tension = 0.8
+		}
+		
+		faction_modifiers = {
+			
+		}
+		can_be_boosted = no
+	}
+
+	elites = {
+	
+		types = {
+		
+			militarist_oligarchy = {
+			}
+			feudalism = {
+			}
+			tribalism = {
+			}
+			militarist_technocracy = {
+			}
+			conspiratory_oligarchy = {
+			}
+			survivalism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_ELITES_1"
+			"FACTION_NAME_ELITES_2"
+			"FACTION_NAME_ELITES_3"
+			"FACTION_NAME_ELITES_4"
+			"FACTION_NAME_ELITES_5"
+		}
+		
+		color = { 68 0 68 }
+		
+		war_impact_on_world_tension = 0.15			#evil!
+		faction_impact_on_world_tension = 0.05
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.80
+			join_faction_tension = 0.5
+		}
+		can_be_boosted = no
+		ai_fascist = yes # uses the fascist AI behaviour
+	}
+	
+	ruler = {
+	
+		types = {
+			oligarchy = {
+			}
+			warlordship = {
+				ai_focus_aggressive_factor = 0.6
+			}
+			benevolent_dictatorship = {
+			}
+			indifferent_despotism = {
+			}
+			chieftain = {
+			}
+			gang = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_RULER_1"
+			"FACTION_NAME_RULER_2"
+			"FACTION_NAME_RULER_3"
+			"FACTION_NAME_RULER_4"
+			"FACTION_NAME_RULER_5"
+		}
+		
+		color = { 192 192 192 }
+		
+		
+		war_impact_on_world_tension = 0.01		#no major danger
+		faction_impact_on_world_tension = 0.1
+		
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+		
+		modifiers = {
+			#increased_influence_factor = 0.3 #30% easier to influence
+			generate_wargoal_tension = 0.01
+			join_faction_tension = 0.6
+			lend_lease_tension = 0.3
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+			drift_defence_factor = -0.3	
+		}
+		
+		faction_modifiers = {
+		}
+
+		can_be_boosted = no
+
+		ai_fascist = yes # 
+	}
+	
+	underworld = {
+	
+		types = {
+		
+			criminal = {
+			}
+			
+			raider = {
+			}
+			
+			organized_crime = {
+			}			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_RULER_1"
+			"FACTION_NAME_RULER_2"
+			"FACTION_NAME_RULER_3"
+			"FACTION_NAME_RULER_4"
+			"FACTION_NAME_RULER_5"
+		}
+		
+		color = { 150 75 0 }
+		
+		war_impact_on_world_tension = 0.15			#evil!
+		faction_impact_on_world_tension = 0.10
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.80
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+	}
+}
