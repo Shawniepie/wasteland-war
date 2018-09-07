@@ -1,0 +1,8 @@
+spriteTypes = {
+	# Tech tree backgrounds
+	spriteType = {
+		name = "GFX_Vault_Boy"
+		textureFile = "gfx/interface/Vault_Boy.dds"
+	}
+
+}
