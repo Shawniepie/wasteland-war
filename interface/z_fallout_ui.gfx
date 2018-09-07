@@ -4,5 +4,9 @@ spriteTypes = {
 		name = "GFX_Vault_Boy"
 		textureFile = "gfx/interface/Vault_Boy.dds"
 	}
+	spriteType = {
+		name = "GFX_WAW_logo"
+		textureFile = "gfx/interface/logo_WAW.dds"
+	}
 
 }

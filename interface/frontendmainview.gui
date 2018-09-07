@@ -205,7 +205,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 70 y = 480 }
+			position = { x = 400 y = 480 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			buttonText = "NUDGE.EXE"
 			buttonFont = "Terminal_22Bold"
@@ -214,13 +214,19 @@ guiTypes = {
 
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 400 y = 650 }
+			position = { x = 70 y = 480 }
 			quadTextureSprite ="GFX_main_lobby_button"
-			font = "hoi_24header"
-			text = "cent"
+			font = "Terminal_22Bold"
+			text = "SHUTDOWN.EXE"
 			clicksound = click_default
 			oversound = ui_menu_over
 
+		}
+		iconType =
+		{
+			name ="pdx_int_logo"
+			spriteType = "GFX_WAW_logo"
+			position = { x= 350 y = 300 }
 		}
 
 	}
