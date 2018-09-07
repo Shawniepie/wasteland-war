@@ -20,23 +20,7 @@ guiTypes = {
 		
 	}
 
-	### MAIN MENU PANEL (upperleft)
-	containerWindowType = {
-		name  ="mainmenu_panel_upperleft"
-		position = { x=0 y =-200 }
-		show_position = { x=0 y =-1 }
-		animation_type = decelerated
-		animation_time = 1000
-		size = { width = 256 height = 768}
-		
-		iconType =
-		{
-			name ="frontend_game_logo"
-			spriteType = "GFX_frontend_game_logo"
-			position = { x= 20 y = 20 }
-		}
-		
-	}
+
 
 	#containerWindowType = {
 	#	name  ="frontend_alpha_stamp"
@@ -103,7 +87,7 @@ guiTypes = {
 			name = "sp_continue_button"
 			position = { x = 16 y = 328 }
 			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "FE_CONTINUE"
+			buttonText = "CONTINUE?"
 			buttonFont = "fallout_greentypewriter22"
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -123,7 +107,7 @@ guiTypes = {
 			name = "sp_load_button"
 			position = {  x = 16 y = 258 }
 			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "MENU_BAR_LOAD"
+			buttonText = "LOAD FILE?"
 			buttonFont = "fallout_greentypewriter22"
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -133,7 +117,7 @@ guiTypes = {
 			name = "sp_tutorial_button"
 			position = { x = 16 y = 468}
 			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "FE_TUTORIAL"
+			buttonText = "START TUTORIAL?"
 			buttonFont = "fallout_greentypewriter22"
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -143,7 +127,7 @@ guiTypes = {
 			name = "sp_back_button"
 			position = { x = 16 y = 398 }
 			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "BACK"
+			buttonText = "BACK?"
 			buttonFont = "fallout_greentypewriter22"
 			clicksound = click_close
 			oversound = ui_menu_over
