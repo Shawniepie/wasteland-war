@@ -1,0 +1,35 @@
+bitmapfonts = {
+	### NORMAL
+	#Fallout Green 1
+	#Small debug font
+	bitmapfont = {
+		name = "Terminal_22"
+		#path = "gfx/fonts/terminal_22"
+		fontfiles = {
+			"gfx/fonts/terminal_22"
+		}
+		color = 0xffffffff
+		textcolors = {
+			G = { 86 172 91 }
+			R = { 222 86 70 }
+			Y = { 238 201 35 }
+			H = { 238 201 35 }
+			T = { 255 255 255 }
+		}
+	}
+	bitmapfont = {
+		name = "Terminal_22Bold"
+		#path = "gfx/fonts/terminal_22"
+		fontfiles = {
+			"gfx/fonts/terminal_22b"
+		}
+		color = 0xffffffff
+		textcolors = {
+			G = { 86 172 91 }
+			R = { 222 86 70 }
+			Y = { 238 201 35 }
+			H = { 238 201 35 }
+			T = { 255 255 255 }
+		}
+	}
+}
