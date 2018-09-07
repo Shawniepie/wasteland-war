@@ -87,22 +87,21 @@ guiTypes = {
 		size = { width = 900 height = 761}
 		Orientation = CENTER
 		Origo = center	
-				
+		
+		iconType = {
+			name ="pdx_int_logo"
+			spriteType = "GFX_Vault_Boy"
+			position = { x = 500 y = 200 }
+		}		
+		
 		background = {
 			name = "Background"		
 			quadTextureSprite ="GFX_tiled_window"
 		}
 		
-		iconType =
-		{
-			name ="frontend_dev_logo"
-			spriteType = "GFX_frontend_dev_logo"
-			position = { x= 15 y = 15 }
-		}
-		
 		ButtonType = {
 			name = "sp_continue_button"
-			position = { x = 16 y = 288 }
+			position = { x = 16 y = 328 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_CONTINUE"
 			buttonFont = "fallout_greentypewriter22"
@@ -112,9 +111,9 @@ guiTypes = {
 			
 		ButtonType = {
 			name = "sp_new_button"
-			position = { x = 16 y = 148 }
+			position = { x = 16 y = 188 }
 			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "FE_NEW"
+			buttonText = "START NEW FILE?"
 			buttonFont = "fallout_greentypewriter22"
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -122,7 +121,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "sp_load_button"
-			position = {  x = 16 y = 218 }
+			position = {  x = 16 y = 258 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "MENU_BAR_LOAD"
 			buttonFont = "fallout_greentypewriter22"
@@ -132,7 +131,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "sp_tutorial_button"
-			position = { x = 16 y = 428}
+			position = { x = 16 y = 468}
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_TUTORIAL"
 			buttonFont = "fallout_greentypewriter22"
@@ -142,7 +141,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "sp_back_button"
-			position = { x = 16 y = 358 }
+			position = { x = 16 y = 398 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "BACK"
 			buttonFont = "fallout_greentypewriter22"
