@@ -1,0 +1,54 @@
+focus_tree = {
+	id = eighties_nf
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = EIG
+		}
+	}
+	default = no
+	focus = {
+		id = 80s_life_is_a_highway
+		icon = GFX_goal_generic_building_focus
+		cost = 1.00
+		x = 12
+		y = 1
+		completion_reward = {
+			country_event = {
+		 		id = nf_eighties.1 
+			}
+		}
+	}
+	focus = {
+		id = 80s_more_than_just_a_road
+		icon = GFX_goal_generic_building_focus
+		prerequisite = {
+			focus = 80s_life_is_a_highway
+		}
+		cost = 1.00
+		x = 12
+		y = 2
+		completion_reward = {
+			country_event = {
+				id = nf_eighties.2
+			}
+		}
+	}
+	focus = {
+		id = 80s_eye_for_an_eye
+		icon = GFX_goal_generic_building_focus
+		prerequisite = {
+			focus = 80s_more_than_just_a_road
+		}
+		cost = 1.00
+		x = 12
+		y = 3
+
+		completion_reward = {
+			country_event = {
+				id = nf_eighties.3
+			}
+		}
+	}
+}
