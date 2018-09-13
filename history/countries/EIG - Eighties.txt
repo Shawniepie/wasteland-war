@@ -1,0 +1,53 @@
+﻿capital = 135
+oob = "EIG_2241"
+
+set_technology = {
+	standard_weaponry_tech = 1
+	blunt_weaponry = 1
+	tribal_civilization = 1
+	militia_training = 1
+	support_weaponry = 1
+	explosive_tech = 1
+}
+
+set_stability = 0.6
+set_war_support = 0.8
+
+set_politics = {
+	parties = {
+		people = { popularity = 0 }
+		elites = { popularity = 0 }
+		intellectuals = { popularity = 0 }
+		ruler = { popularity = 100 }
+	}
+	ruling_party = ruler
+	elections_allowed = no
+}
+
+add_ideas = { 
+	raider_nation
+	roaring_machines
+}
+
+create_country_leader  = {
+	name = "Ate-Oh-Ate"
+	desc = ""
+	picture = "gfx/leaders/TEC/TEC_Ruler_Leader.dds"
+	expire = "3000.1.1"
+    ideology = warlordship
+    traits = {
+        well_liked_leader
+        warmonger
+    }
+}
+
+create_corps_commander = {
+	name = "Ate-Oh-Ate"
+	portrait_path = "gfx/leaders/TEC/TEC_Ruler_Leader.dds"
+	traits = { 
+		trait_engineer
+		trickster
+		hill_fighter
+	}
+	skill = 4
+}
