@@ -1,0 +1,145 @@
+﻿add_namespace = nf_eighties
+
+country_event = {
+	id = nf_eighties.1
+	title = nf_eighties.1.t
+	desc = nf_eighties.1.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_eighties.1.a
+		every_state = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	option = {
+		name = nf_eighties.1.b
+		135 = {		
+		add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+		add_ideas = commit_to_the_front
+	}
+
+	option = {
+		name = nf_eighties.1.c
+		141 = {
+		add_extra_state_shared_building_slots = 4
+		add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+			}
+		add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+	production_speed_industrial_complex_factor = .1
+}
+country_event = {
+	id = nf_eighties.2
+	title = nf_eighties.2.t
+	desc = nf_eighties.2.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_eighties.2.a
+		add_state_core = 614
+	}
+
+	option = {
+		name = nf_eighties.2.b
+		add_state_core = 57
+	}
+
+	option = {
+		name = nf_eighties.2.c	
+		135 = {		
+		add_extra_state_shared_building_slots = 8
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 5
+				instant_build = yes
+			}
+		}
+		add_ideas = conscription_en_masser
+	}
+}
+country_event = {
+	id = nf_eighties.3
+	title = nf_eighties.3.t
+	desc = nf_eighties.3.d
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_eighties.3.a			
+		equipment_bonus = {
+			motorized_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+		}
+		load_oob = EIG_motorized
+		conscription_factor = 0.03
+	}
+
+	option = {
+		name = nf_eighties.3.b
+		3 outposts in capital		
+		135 = {		
+		add_extra_state_shared_building_slots = 4
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+		}
+		conscription_factor = 0.05
+	}
+
+	option = {
+		name = nf_eighties.3.c
+		stability_factory = .2
+		war_support_factor = .2		
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}		
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		consumer_goods_factory = .1
+	}
+}
