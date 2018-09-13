@@ -1,0 +1,36 @@
+ideas = {
+	country = {
+			eighties_bike = {
+			
+			picture = generic_morale_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				training_time_factor = -0.08
+				production_speed_buildings_factor = 0.05
+			}
+		}			
+		commit_to_the_front = {
+			
+			picture = generic_morale_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				planning_speed = 0.1
+				conscription = 0.02
+			}
+		}
+		conscription_en_masser = {
+			
+			picture = generic_morale_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = 0.1
+			}
+		}
+	}
+}
