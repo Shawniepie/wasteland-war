@@ -4,9 +4,8 @@ state={
 	name="STATE_543" # Marysville Ranch
 
 	history={
-		owner = 
-		add_core_of = 
-		add_core_of = BAR
+		owner = EIG
+		add_core_of = EIG
 		victory_points = {
 			2436 5 
 		}

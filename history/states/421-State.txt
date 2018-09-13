@@ -4,9 +4,8 @@ state={
 	name="STATE_421" # Welding Ranch
 
 	history={
-		owner = 
-		add_core_of = 
-		add_core_of = BAR
+		owner = EIG
+		add_core_of = EIG
 		victory_points = {
 			4875 5 
 		}

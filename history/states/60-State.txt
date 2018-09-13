@@ -4,14 +4,13 @@ state={
 	name="STATE_60"
 
 	history={
-		owner = 
-		add_core_of = 
-		add_core_of = BAR
+		owner = EIG
+		add_core_of = EIG
 		victory_points = {
 			4850 10 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 6
 			industrial_complex = 2
 			4618 = {
 				naval_base = 3
