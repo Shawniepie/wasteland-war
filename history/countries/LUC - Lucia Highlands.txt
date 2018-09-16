@@ -1,0 +1,38 @@
+﻿capital = 433
+oob = "ANT_2275"
+
+set_technology = {
+	standard_weaponry_tech = 1
+	blunt_weaponry = 1
+	tribal_civilization = 1
+}
+
+set_stability = 0.4
+set_war_support = 0.4
+
+set_politics = {
+	parties = {
+		people = { popularity = 0 }
+		elites = { popularity = 0 }
+		intellectuals = { popularity = 0 }
+		ruler = { popularity = 100 }
+	}
+	ruling_party = ruler
+	elections_allowed = no
+}
+
+add_ideas = {
+	tribal_nation
+}
+
+create_country_leader  = {
+	name = "Ah Va Ah"
+	desc = "null"
+	picture = "gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+	expire = "3000.1.1"
+	ideology = chieftain
+	traits = {
+		fortifications_expert
+	}
+}
+
