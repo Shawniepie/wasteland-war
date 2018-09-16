@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 #EXAMPLES
  #ARM_people:0 "Army of Mexico" #Used on Map
  #ARM_people_DEF:0 "the New Mexican Army" #Used in Events ALWAYS INCLUDE THE
@@ -176,7 +176,20 @@
  EIG_intellectuals_DEF:0 "The School Bus"
  EIG_intellectuals_ADJ:0 "Schooler"
 
-
+ SAN_elites:0 "Jose Republic"
+ SAN_elites_DEF:0 "The Jose Republic"
+ SAN_elites_ADJ:0 "Jose"
+ SAN_ruler:0 "Jose Republic"
+ SAN_ruler_DEF:0 "The Jose Republic"
+ SAN_ruler_ADJ:0 "Jose"
+ SAN_people:0 "Jose Republic"
+ SAN_people_DEF:0 "The Jose Republic"
+ SAN_people_ADJ:0 "Jose"
+ SAN_intellectuals:0 "Jose Republic"
+ SAN_intellectuals_DEF:0 "The Jose Republic"
+ SAN_intellectuals_ADJ:0 "Jose"
+ 
+#focus tree thingies
  80s_life_is_a_highway:0 "Life is a Highway"
  80s_life_is_a_highway_desc:0 "Life is a Highway"
  nf_eighties.1.t:0 "Life is a Highway"
