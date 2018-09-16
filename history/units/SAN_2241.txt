@@ -1,0 +1,53 @@
+﻿division_template = {
+	name = "Militia Force"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Jacob's Draft"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+units = {
+	division {
+		name = "Southern Men"
+		location = 4612
+		division_template = "Jacob's Draft"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	division {
+		name = "Fly Boys"
+		location = 2421
+		division_template = "Jacob's Draft"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	
+}
+
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "HUB"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+}
