@@ -1,5 +1,5 @@
 capital = 104
-#oob = "VIC_2275"
+#oob = "SAN_2241"
 
 set_technology = {
 	standard_weaponry_tech = 1
