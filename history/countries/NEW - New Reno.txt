@@ -1,0 +1,35 @@
+﻿capital = 285
+
+set_technology = {
+	standard_weaponry_tech = 1
+	blunt_weaponry = 1
+	tribal_civilization = 1
+	settled_civilization = 1
+	support_weaponry = 1
+	signal_tech = 1
+	logistics_tech = 1
+	explosive_tech = 1
+	anti_tank_tech = 1
+	anti_personnel_tech = 1
+	bike_tech_1 = 1
+}
+
+set_stability = 0.55
+set_war_support = 0.35
+
+set_research_slots = 4
+
+set_politics = {
+	parties = {
+		people = { popularity = 10 }
+		elites = { popularity = 15 }
+		intellectuals = { popularity = 15 }
+		ruler = { popularity = 10 }
+		underworld = { popularity = 50 }
+	}
+	ruling_party = underworld
+	elections_allowed = no
+}
+
+add_ideas = {
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=285
+	name="STATE_NEW_RENO"
+	
+	resources = {
+		water = 16
+		metal = 16
+		electronics = 16
+		fuel = 26
+	}
+	
+	history={
+		owner = NEW
+		add_core_of = NEW
+		victory_points = {
+			9139 30
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+
+	}
+
+	provinces={
+		1658 4798 8756 8757 8802 8809 9159 9150 9153 9149 9154 9157 9140 9137 9139 9152 9144 9148 9147 9136 9142 9151 9130 9128 9126 9125 9132
+	}
+	manpower=62500
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=295
+	name="STATE_NIXON"
+	resources={
+		water = 8
+		metal = 8
+		electricity = 8`
+	}
+
+	history={
+		owner = 
+		victory_points = {
+			8371 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		2686 2688 2690 3595 3596 3597 8371 8776 8777 8778 8779 8780 8804 
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

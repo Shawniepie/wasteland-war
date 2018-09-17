@@ -1,0 +1,25 @@
+state = {
+	id = 184
+	name = "STATE_LOVELOCK"
+	manpower = 3000
+	state_category = rural
+	
+	resources = {
+		metal = 16
+	}
+	
+	history = {
+		owner =
+		victory_points = {
+			3405 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	
+	provinces = {
+		1142 2689 2692 3405 4947 8372 8775 8813
+	}
+}
