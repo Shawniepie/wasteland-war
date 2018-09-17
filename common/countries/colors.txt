@@ -52,13 +52,3 @@ ENC = {
 	color = rgb { 17 30 108 }
 	color_ui = rgb { 17 30 108 }
 }
-
-EIG = {
-	color = rgb { 149 97 181 }
-	color_ui = rgb { 149 97 181 }
-}
-
-SAN = {
-	color = rgb { 0 60 83 }
-	color_ui = rgb { 0 60 83 }
-}
