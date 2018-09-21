@@ -57,3 +57,8 @@ EIG = {
 	color = rgb { 149 97 181 }
 	color_ui = rgb { 149 97 181 }
 }
+
+LUC = {
+	color = rgb { 135 206 250 }
+	color_ui = rgb { 135 206 250 }
+}
