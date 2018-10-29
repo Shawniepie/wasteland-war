@@ -1,0 +1,24 @@
+state = {
+	id = 236
+	name = "STATE_BARSTOW"
+	manpower = 20000
+	state_category = large_town
+	
+	history = {
+		owner = NCR
+		add_core_of = NCR
+		victory_points = {
+			5935 15
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+	}
+	
+	provinces = {
+		935 2390 2392 5930 5934 5935
+	}
+}
