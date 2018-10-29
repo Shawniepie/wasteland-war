@@ -1,0 +1,27 @@
+state = {
+	id = 372
+	name = "STATE_MOJAVE_BASE"
+	manpower = 10000
+	state_category = town
+	
+	resources = {
+		water = 7
+	}
+	
+	history = {
+		owner = NCR
+		add_core_of = NCR
+		victory_points = {
+			945 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+		
+		}
+	}
+	
+	provinces = {
+		945 2376 2387 2391 2394
+	}
+}
