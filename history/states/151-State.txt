@@ -4,9 +4,8 @@ state={
 	name="STATE_WOODLAKE"
 
 	history={
-		owner = 
-		add_core_of = 
-		add_core_of = BAR
+		owner = NCR
+		add_core_of = NCR
 		victory_points = {
 			5066 5 
 		}
