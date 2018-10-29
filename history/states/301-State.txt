@@ -1,0 +1,21 @@
+state = {
+	id = 301
+	name = "STATE_EAGLE_MOUNTAIN"
+	manpower = 7000
+	state_category = rural
+	
+	history = {
+		owner = NCR
+		add_core_of = NCR
+		victory_points = {
+			8366 5
+		}
+		buildings = {
+		
+		}
+	}
+	
+	provinces = {
+		4783 4784 5767 5925 5936 8365 8366 8367 8369 8370
+	}
+}
