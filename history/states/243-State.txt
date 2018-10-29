@@ -1,0 +1,30 @@
+state = {
+	id = 243
+	name = "STATE_LANDERS"
+	manpower = 10000
+	state_category = town
+	
+	resources = {
+		water = 8
+		metal = 16
+		advanced_technology = 6
+	}
+	
+	history = {
+		owner = NCR
+		add_core_of = NCR
+		victory_points = {
+			5933 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		
+		}
+	}
+	
+	provinces = {
+		2311 2312 4709 4710 5073 5926 5927 5928 5929 5931 5932 5933
+	}
+}
