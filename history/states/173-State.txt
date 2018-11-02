@@ -1,0 +1,37 @@
+state = {
+	id = 173
+	name = "STATE_CHEMEHUEVI"
+	manpower = 15000
+	state_category = large_city
+	
+	resources = {
+		metal = 12
+	}
+	
+	history = {
+		owner = NCR
+		add_core_of = NCR
+		victory_points = {
+			5806 20
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			5771 = {
+				naval_base = 1
+			}
+			5771 = {
+				bunker = 1
+			}
+			5806 = {
+				bunker = 1
+			}
+		}
+	}
+	
+	provinces = {
+		5768 5769 5770 5771 5806 5811 5937 8368
+	}
+}
