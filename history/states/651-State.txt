@@ -1,0 +1,29 @@
+
+state={
+	id=651
+	name="STATE_PUERTECITOS"
+
+	history={
+		owner = BVC
+		add_core_of = BVC
+		victory_points = {
+			9077 5 
+		}
+		buildings = {
+			infrastructure = 2
+			4819 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		799 820 4643 4819 4820 9078 9079 9080 
+	}
+	manpower=3555
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

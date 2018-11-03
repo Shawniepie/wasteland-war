@@ -1,0 +1,34 @@
+
+state={
+	id=41
+	name="STATE_COLONET"
+	resources={
+		water=16.000
+		fuel=12.000
+		electronics=12.000
+		metal=30.000
+	}
+
+	history={
+		owner = BVC
+		add_core_of = BVC
+		victory_points = {
+			823 20 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		806 823 3303 4647 7158 7159 7160 7161 7162 8561 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=city
+}
